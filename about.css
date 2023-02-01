@@ -15,7 +15,9 @@
     position: relative;
     overflow: scroll;
     overflow-x: hidden;
+    text-size-adjust: 70%;
 }
+
 nav{
     display: flex;
     width: 100%;
