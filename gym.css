@@ -1,9 +1,20 @@
 
-body{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'sans-serif';
+}
+.container{
+    width: 100%;
+    height: 100vh;
     background-image: linear-gradient(rgba(0,0,0,0.3), transparent), url("images/photo-1593079831268-3381b0db4a77.avif");
-    background-size:cover;
+    background-size: cover;
     background-position: center;
-    padding: 0 3%;
+    padding: 0 8%;
+    position: relative;
+    resize: both;
+    overflow: auto;
 }
 nav{
     display: flex;
@@ -21,17 +32,17 @@ nav h2{
     text-align: center;
     flex:2;
     font-size: 50px;
-    border: 2px solid white;
+    border: 2px solid black;
 }
 nav ul{
     flex: 1;
     text-align: right;
-    padding-right: 80px;
+    padding-right: 5px;
 }
 nav ul li{
     display: inline-block;
     list-style: none;
-    margin: 10px 7px;
+    margin: 10px 10px;
     font-size: 120%;
 }
 nav ul li a{
@@ -55,11 +66,8 @@ nav ul li a:hover::after{
 }
 .overview{
     color: white;
-    height: 100%;
     width: 100%;
     display: block;
-}
-.overview div{
 }
 .overview h2{
     font-size: 27px;
@@ -71,7 +79,6 @@ nav ul li a:hover::after{
     display: flex;
 }
 .week div{
-    height: 40em;
     width: 100%;
     background: rgba(59, 61, 61, 0.4);
 }
@@ -79,31 +86,31 @@ nav ul li a:hover::after{
 
 }
 .monday h3{
-    font-size: 35px;
+    font-size: 25px;
     text-align: center;
 }
 #pusha{
-    font-size: 20px;
+    font-size: 15px;
 }
 .tuesday{
     
 }
 .tuesday h3{
-    font-size: 35px;
+    font-size: 25px;
     text-align: center;
 }
 #pulla{
-    font-size: 20px;
+    font-size: 15px;
 }
 .wednesday{
     
 }
 .wednesday h3{
-    font-size: 35px;
+    font-size: 25px;
     text-align: center;
 }
 #legs{
-    font-size: 20px;
+    font-size: 15px;
 }
 #gym_icon{
     height: auto;
@@ -117,19 +124,19 @@ nav ul li a:hover::after{
     
 }
 .thursday h3{
-    font-size: 35px;
+    font-size: 25px;
     text-align: center;
 }
 #pushb{
-    font-size: 20px;
+    font-size: 15px;
 }
 .friday{
     
 }
 .friday h3{
-    font-size: 35px;
+    font-size: 25px;
     text-align: center;
 }
 #pullb{
-    font-size: 20px;
+    font-size: 15px;
 }

@@ -91,6 +91,9 @@ nav ul li a:hover::after{
     font-size: 200%;
     font-weight: 600;
 }
+.text-box h3:hover{
+
+}
 .text-box .row{
     display: flex;
     align-items: center;
@@ -105,10 +108,12 @@ nav ul li a:hover::after{
     border: 2px solid whitesmoke;
     display: flex;
     align-items: center;
+    transition: all .2s ease-in-out; 
 }
-.text-box a::hover{
-    border: rgb(5, 67, 87);
-    color: rgb(5, 67, 87);
+.text-box a:hover { 
+    transform: scale(1.1); 
+    border: 2px solid darkblue;
+    color: darkblue;
 }
 .text-box a span{
     font-size: 30px;

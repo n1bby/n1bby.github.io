@@ -29,7 +29,7 @@ nav h2{
     text-align: center;
     flex:2;
     font-size: 50px;
-    border: 2px solid black;
+    border: 2px solid white;
 }
 nav ul{
     flex: 1;
