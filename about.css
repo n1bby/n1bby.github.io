@@ -13,6 +13,7 @@
     background-position: center;
     padding: 0 8%;
     position: relative;
+    image-rendering: -webkit-optimize-contrast;
 }
 nav{
     display: flex;
@@ -70,6 +71,7 @@ nav ul li a:hover::after{
     left: 100px;
     top: 150px;
     border: 2px solid white;
+    image-rendering: -webkit-optimize-contrast;
 }
 .lowes{
     color: white;
@@ -158,6 +160,7 @@ nav ul li a:hover::after{
     padding: 0 8%;
     position: relative;
     border-top: 7px solid black;
+    image-rendering: -webkit-optimize-contrast;
 }
 .bio #at4{
     height: auto;
