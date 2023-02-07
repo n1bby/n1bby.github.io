@@ -6,7 +6,7 @@
 }
 .container{
     width: 100%;
-    height: 100vh;
+    height: 50em;
     background-image: linear-gradient(rgba(0,0,0,0.3), transparent), url("images/photo-1482440308425-276ad0f28b19.avif");
     background-size:cover;
     background-position: center;
@@ -25,11 +25,11 @@ nav{
     cursor: pointer;
 }
 nav h2{
-    color: black;
+    color: white;
     text-align: center;
     flex:2;
     font-size: 50px;
-    border: 2px solid white;
+    border: 2px solid black;
 }
 nav ul{
     flex: 1;
