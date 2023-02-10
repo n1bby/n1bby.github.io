@@ -180,3 +180,28 @@ nav ul li a:hover::after{
     right: 70px;
     border: 2px solid black;
 }
+.bio .bio_text{
+    text-align: center;
+    width: 40em;
+    max-width: 40em;
+    height: 25em;
+    max-height: 25em;
+    border: 2px solid white;
+    position: absolute;
+    right: 25em;
+    top: 8em;
+}
+.bio_text p{
+    font-family: "Alumni Sans", sans-serif;
+    font-size: 40px;
+    color: transparent;
+    -webkit-text-stroke: 1px whitesmoke;
+    background-image: url("images/back.png");
+    -webkit-background-clip: text;
+    animation: bg-animation 20s linear infinite;
+} 
+@keyframes bg-animation{
+    100%{
+        background-position: 2000px 0;
+    }
+}
