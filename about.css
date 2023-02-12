@@ -172,7 +172,7 @@ nav ul li a:hover::after{
     left: 2.5em;
     top: 5em;
 }
-.bio .bio_text{
+.bio_text{
     height: 25em;
     width: 40em;
     text-align: center;
@@ -259,7 +259,11 @@ h1 {
         right: 12px;
         font-size: 10px;
     }
-    #at4, #home{
+    #home{
+        top: 40em;
+        width: 150px;
+    }
+    #at4{
         top: 40em;
         width: 150px;
     }
