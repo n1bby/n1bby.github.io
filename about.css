@@ -182,9 +182,7 @@ nav ul li a:hover::after{
 }
 .bio .bio_text{
     width: 40em;
-    max-width: 40em;
     height: 25em;
-    max-height: 25em;
     position: absolute;
     right: 25em;
     top: 5em;
@@ -200,41 +198,33 @@ nav ul li a:hover::after{
 h1 {
 	font-size: 2.5em;
 	text-decoration: underline;
-	@media (max-width: 768px) {
-		font-size: 1.3em;
-	}
-}
-.text-shadow {
-	font-style: italic;
-	text-transform: uppercase;
-	color: transparent;
-	-webkit-text-stroke: #fff;
-	-webkit-text-stroke-width: 1px;
-	text-shadow: 2px 2px 10px blue;
-	transition: all 0.5s ease-in-out;
-	text-align: center;
-	letter-spacing: 0.2em;
-	animation: flicker 0.8s ease-in-out infinite alternate;
-    margin-bottom: 10px;
-}
-
-.tags small {
-	@media (max-width: 768px) {
-		font-size: 0.5em;
-	}
-}
-
-@keyframes flicker {
-	0% {
-		opacity: 0.5;
-		text-shadow: 2px 2px 10px darkgrey;
-	}
-	100%{
-		opacity: 1;
-		text-shadow: 2px 2px 20px lightblue;
-	}
 }
 .qoute{
     margin: 10px;
     color: whitesmoke;
+}
+
+@media screen and (min-width: 1800px){
+    .lowes{
+        position: absolute;
+        right: 200px;
+        font-size: 18px;
+    }
+    .expertFence{
+        position: absolute;
+        top: 375px;
+        right: 200px;
+        font-size: 18px;
+    }
+    .work{
+        right: 660px;
+        top: 160px;
+        font-size: 18px;
+    }
+    .bio_text{
+        position: absolute;
+        font-size: 20px;
+        left: 28em;
+        top: 0em;
+    }
 }
