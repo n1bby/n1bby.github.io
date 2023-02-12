@@ -121,12 +121,5 @@ nav ul li a:hover::after{
     line-height: 15px;
     margin-left: 5px;
 }
-#instagram{
-    height: auto;
-    width: 60px;
-    border-radius: 32%;
-    position: absolute;
-    right: 3%;
-    bottom: 4%;
-}
+
 
