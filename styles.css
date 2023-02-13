@@ -124,7 +124,7 @@ nav ul li a:hover::after{
 
 @media screen and (max-width: 450px){
     .logo{
-        font-size: 75px;
+        width: 75px;
     }
     nav h2{
         width: 250px;
@@ -141,7 +141,7 @@ nav ul li a:hover::after{
     .text-box p{
         font-size: 200%;
     }
-    .text-box h2{
+    .text-box h1{
         font-size: 400%;
     }
     .text-box h3{
