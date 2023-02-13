@@ -264,12 +264,12 @@ h1 {
     }
 }
 @media screen and (max-width: 450px){
-    #home{
-        top: 40em;
+    .bio #home{
+        top: 20em;
         width: 150px;
     }
-    #at4{
-        top: 40em;
+    .bio #at4{
+        top: 20em;
         width: 150px;
     }
     .bio_text{
