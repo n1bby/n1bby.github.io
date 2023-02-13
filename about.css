@@ -262,6 +262,8 @@ h1 {
         font-size: 10px;
         max-width: 250px;
     }
+}
+@media screen and (max-width: 450px){
     #home{
         top: 40em;
         width: 150px;
@@ -277,5 +279,4 @@ h1 {
         top: 2em;
         font-size: 17px;
     }
-
 }
