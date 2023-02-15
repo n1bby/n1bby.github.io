@@ -149,3 +149,17 @@ nav ul li a:hover::after{
     }
 }
 
+@media screen and (max-width: 380px){
+    .logo{
+        width: 60px;
+    }
+    .text-box p{
+        font-size: 170;
+    }
+    .text-box h1{
+        font-size: 300%;
+    }
+    .text-box h3{
+        font-size: 125%
+    }
+}
