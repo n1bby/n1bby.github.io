@@ -33,36 +33,7 @@ nav h2{
     font-size: 50px;
     border: 2px solid black;
 }
-nav ul{
-    flex: 1;
-    text-align: right;
-    padding-right: 5px;
-}
-nav ul li{
-    display: inline-block;
-    list-style: none;
-    margin: 10px 10px;
-    font-size: 120%;
-}
-nav ul li a{
-    color: white;
-    text-decoration: none;
-    position: relative;
-}
-nav ul li a::after{
-    content: '';
-    width: 0;
-    height: 3px;
-    position: absolute;
-    bottom: -5px;
-    left: 50%;
-    transform: translateX(-50%);
-    background: whitesmoke;
-    transition: width 0.3s;
-}
-nav ul li a:hover::after{
-    width: 50%;
-}
+
 #potrait{
     width: 250px;
     height: auto;
@@ -279,4 +250,7 @@ h1 {
         top: 2em;
         font-size: 17px;
     }
+}
+@media screen and (max-width: 380px){
+    
 }
