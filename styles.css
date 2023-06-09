@@ -7,7 +7,7 @@
 .container1{
     width: 100%;
     height: 50em;
-    background-image: linear-gradient(rgba(0,0,0,0.3), transparent), url("images/Purple Gradient Channel.png");
+    background-image: linear-gradient(rgba(0,0,0,0.3), transparent), url("images/fotor_2023-6-9_10_17_1.png");
     background-size: cover;
     background-position: center;
     padding: 0 8%;
@@ -16,16 +16,15 @@
     overflow: hidden;
     image-rendering: -webkit-optimize-contrast;
 }
-.container1-title{
+.container1-title {
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 5%;
+    font-size: 5em;
     transform: scaleX(1.5);
-    font-size: 2em;
-    color: whitesmoke;
-    position: absolute;
-    padding: 8px;
-    top: 5%;
-    left: 250px;
-    width: 950px;
-    background-color: black;
+    text-decoration: 1.5px underline;
+    text-underline-offset: 4px;
 }
 .text-box{
     color: whitesmoke;
@@ -135,41 +134,20 @@
     z-index: 1;
     object-fit: cover;
 }
-
 .container{
     width: 100%;
-    height: 50em;
-    background-image: linear-gradient(rgba(0,0,0,0.3), transparent), url("images/fotor_2023-6-1_22_42_9.jpg");
+    height: 100em;
+    background-image: linear-gradient(to bottom, black, white);
     background-size:cover;
-    backdrop-filter: blur(5px);
     background-position: center;
     padding: 0 8%;
     position: relative;
     image-rendering: -webkit-optimize-contrast;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.container::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    backdrop-filter: blur(3.5px); /* Adjust the blur radius as desired */
-}
-.content {
-    position: relative;
-    z-index: 1;
-}
-#potrait{
-    width: 250px;
-    height: auto;
-    border-radius: 20em;
-    position: absolute;
-    left: 100px;
-    top: 150px;
-    image-rendering: -webkit-optimize-contrast;
-}
-.container-title {
+.container-title{
     color: lightgrey;
     position: absolute;
     top: 5%;
@@ -177,74 +155,6 @@
     font-size: 1.5em;
     transform: scaleX(2);
 }
-.lowes{
+.timeline {
     color: white;
-    position: absolute;
-    right: 40px;
-    top: 150px;
-    max-width: 450px;
-    padding: 10px;
-}
-.lowes ol{
-    margin-left: 25px;
-}
-.lowes #lowes_link{
-    color: darkblue;
-    text-decoration: none;
-    box-shadow: inset 0 0 0 0 red;
-    padding: 0 .25rem;
-    margin: 0 -.25rem;
-    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
-}
-#lowes_link:hover {
-    color: #fff;
-    box-shadow: inset 400px 0 0 0 red;
-}
-.expertFence{
-    color: white;
-    position: absolute;
-    right: 40px;
-    top: 350px;
-    max-width: 450px;
-    padding: 10px;
-}
-.expertFence ol{
-    margin-left: 25px;
-}
-.expertFence #fence_link{
-    color: white;
-    text-decoration: none;
-}
-.expertFence #fence_link{
-    color: green;
-    text-decoration: none;
-    box-shadow: inset 0 0 0 0 black;
-    padding: 0 .25rem;
-    margin: 0 -.25rem;
-    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
-}
-#fence_link:hover {
-    color: #fff;
-    box-shadow: inset 400px 0 0 0 black;
-}
-.work{
-    position:absolute;
-    color: white;
-    right: 500px;
-    top: 160px;
-}
-.education{
-    position: absolute;
-    left: 40px;
-    top: 500px;
-    padding: 10px;
-    max-width: 450px;
-}
-.education h2{
-    color: black;
-    text-align: center;
-}
-.education ol{
-    color: black;
-    margin-left: 30px;
 }
