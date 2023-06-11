@@ -257,7 +257,7 @@ body{
     .container1-title{
         position: absolute;
         top: 10%;
-        left: 20%;
+        left: 18%;
         font-size: 1.3em;
     }
     .text-box p{
@@ -270,7 +270,7 @@ body{
         font-size: 100%;
     }
     #image_container{
-        width: 50em;
+        width: 45em;
         top: 10%;
         left: 10%;
         z-index: 2;
