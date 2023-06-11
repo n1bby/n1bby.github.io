@@ -93,7 +93,7 @@ body{
 /* next div*/
 .cont{
     width: 100%;
-    height: 100em;
+    height: 75em;
     background-image: linear-gradient(to bottom, black, white, rgb(193, 204, 227));
     background-position: center;
     position: relative;
@@ -102,19 +102,18 @@ body{
     position: relative;
     max-width: 1200px;
     margin: 100px auto;
-    top: 20%;
+    top: 10%;
 
 }
 .container-title{
     color: lightgrey;
     position: absolute;
-    top: 5%;
     left: 400px;
     font-size: 1.5em;
     transform: scaleX(2);
 }
 .container{
-    top: 10%;
+    top: 5%;
     padding: 10px 50px;
     position: relative;
     width: 50%;
@@ -308,8 +307,11 @@ body{
     transform: scaleX(1.5);;
 }
 @media screen and (max-width: 600px){
+    .cont{
+        background-image: linear-gradient(to bottom, black, white, rgb(105,139,164));
+    }
     .Hobbies {
-        background-position: 25%;
+        background-image: url("images/my23-escalade-v-reveal-masthead-m.avif")
     }
     .Hobbies-title{
         left: 90px;
