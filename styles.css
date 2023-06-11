@@ -280,4 +280,7 @@ body{
         left: 25%;
         font-size: 10px;
     }
+    .text-box a {
+        font-size: 10px;
+    }
 }
