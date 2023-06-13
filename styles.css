@@ -330,6 +330,7 @@ body{
         left: 90px;
         font-size: 0.55em;
         transform: scaleX(1.5);
+        color: whitesmoke;
     }
     .hobby1{
         height: 150px;
@@ -365,8 +366,7 @@ body{
     .skills h2 {
         color: white;
         position: absolute;
-        top: 5%;
-        left: 40%;
+        left: 30%;
         transform: scaleX(1.8);
     }
     .skills img {
