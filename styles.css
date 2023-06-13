@@ -352,7 +352,7 @@ body{
         left: 32%;
         color: whitesmoke;
     }
-    .projects{
+    .skills{
         height: 80em;
         width: 100%;
         background-image: linear-gradient(to bottom, rgba(53,75,114), white, rgb(105,139,164)); 
@@ -362,11 +362,47 @@ body{
         overflow: hidden;
         image-rendering: -webkit-optimize-contrast;
     }
-    .projects h2 {
+    .skills h2 {
         color: white;
         position: absolute;
         top: 5%;
-        left: 35%;
+        left: 40%;
         transform: scaleX(1.8);
+    }
+    .skills img {
+        height: 125px;
+        width: auto;
+    }
+    .python1 {
+        position: absolute;
+        top: 10%;
+        left: 23%;
+        width: 240px;
+        color: whitesmoke;
+        text-align: center;
+    }
+    .js1{
+        position: absolute;
+        top: 29%;
+        left: 22%;
+        width: 240px;
+        color: rgba(53,75,114);
+        text-align: center;
+    }
+    .forklift {
+        position: absolute;
+        top: 52%;
+        left: 12%;
+        width: 300px;
+        color: rgba(53,75,114);
+        text-align: center;
+    }
+    .c1{
+        position: absolute;
+        top: 75%;
+        left: 22%;
+        color: whitesmoke;
+        width: 240px;
+        text-align: center;
     }
 }
