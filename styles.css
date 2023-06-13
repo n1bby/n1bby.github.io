@@ -366,7 +366,7 @@ body{
     .skills h2 {
         color: white;
         position: absolute;
-        left: 30%;
+        left: 20%;
         transform: scaleX(1.8);
     }
     .skills img {
@@ -375,7 +375,7 @@ body{
     }
     .python1 {
         position: absolute;
-        top: 10%;
+        top: 8%;
         left: 23%;
         width: 240px;
         color: whitesmoke;
