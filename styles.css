@@ -352,4 +352,21 @@ body{
         left: 32%;
         color: whitesmoke;
     }
+    .projects{
+        height: 50em;
+        width: 100%;
+        background-image: url("images/6605224.jpg");
+        background-size: 500px;
+        background-position: center;
+        position: relative;
+        overflow: hidden;
+        image-rendering: -webkit-optimize-contrast;
+    }
+    .projects h2 {
+        color: white;
+        position: absolute;
+        top: 5%;
+        left: 35%;
+        transform: scaleX(1.8);
+    }
 }
