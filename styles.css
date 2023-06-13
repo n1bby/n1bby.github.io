@@ -321,7 +321,7 @@ body{
 }
 @media screen and (max-width: 600px){
     .cont{
-        background-image: linear-gradient(to bottom, black, white, rgb(105,139,164));
+        background-image: linear-gradient(to bottom, black, white, rgba(53,75,114));
     }
     .Hobbies {
         background-image: url("images/my23-escalade-v-reveal-masthead-m.avif")
@@ -353,9 +353,9 @@ body{
         color: whitesmoke;
     }
     .projects{
-        height: 50em;
+        height: 80em;
         width: 100%;
-        background-image: url("images/6605224-fotor-2023061220743.jpg");
+        background-image: linear-gradient(to bottom, rgba(53,75,114), white, rgb(105,139,164)); 
         background-size: 500px;
         background-position: center;
         position: relative;
