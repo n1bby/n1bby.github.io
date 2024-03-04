@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
+    
 }
 .landingpage{
     width: 100%;
@@ -10,6 +12,21 @@
     background-color: black;
 
 }
+.menubar{
+    height: 10vh;
+    width: 100%;
+    background-color: white;
+}
+.menubar #Title {
+    color: black;
+    font-size: 5ch;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin-top: 2%;
+}
+
 #homepicture1 {
     height: auto;
     width: 50%;
