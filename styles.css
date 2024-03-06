@@ -13,31 +13,60 @@
 
 }
 .menubar{
-    height: 10vh;
+    height: 13vh;
     width: 100%;
     background-color: white;
 }
 .menubar #Title {
     color: black;
-    font-size: 5ch;
+    font-size: 7ch;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
     text-align: center;
     margin-top: 2%;
 }
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    position: absolute;
+    top: 3%;
+    left: 5%;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: middle;
+}
 #logo {
     height: auto;
     width: 50px;
-    position: absolute;
-    top: 2%;
-    left: 2%;
-    margin: 0 15px;
+    
 }
-#homepicture1 {
+#logo2 {
     height: auto;
-    width: 50%;
+    width: 65px;
+}
+#designlogo {
+    height: auto;
+    width: 100px;
     position: absolute;
-    right: 7%;
-    top: 25%;
+    right: 5%;
+    top: 2%;
+}
+.menulist{
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+    vertical-align: center;
+}
+.menulist li{
+    display: inline-block;
+    margin-right: 25px;
+    transition: transform 0.3s ease;
+    text-decoration: none;
+}
+.menulist li:hover {
+    transform: translateY(-5px); /* Moves the element up by 5px on hover */
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2); /* Optional: Adds a shadow to enhance the lifting effect */
 }
