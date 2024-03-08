@@ -78,8 +78,51 @@ nav ul li {
 }
 .homeexplanation {
     position: absolute;
-    top: 30%;
-    left: 8%;
+    top: 35%;
+    left: 5%;
     color: white;
     font-family: "Bebas Neue", sans-serif;
+}
+.founders {
+    list-style-type: none;
+    padding: 0;
+    position: absolute;
+    right: 12%;
+    top: 30%;
+}
+.founders li{
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+.founders li img{
+    height: auto;
+    width: 200px;
+    border-radius: 50px;
+}
+.founders li {
+    position: relative;
+    display: inline-block; /* Display list items inline with block characteristics */
+}
+  
+.founders #people{
+    display: block; /* Removes bottom space under the image */
+    width: 200px; /* Adjust based on your design */
+    height: auto; /* Maintain aspect ratio */
+}
+.founders a::after {
+    border-radius: 50px;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.5); /* Grey transparent overlay */
+    opacity: 0; /* Hidden by default */
+    transition: opacity 0.5s ease-in-out; /* Smooth transition */
+    pointer-events: none; /* Allows clicking on the link beneath */
+}
+.founders a:hover::after {
+    opacity: 1; /* Visible on hover */
 }
