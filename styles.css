@@ -104,10 +104,10 @@ nav ul li {
   display: inline-block; 
   width: 200px; 
   height: auto; 
-  border-radius: 50px; 
+  border-radius: 40px; 
 }
 .founders a::after {
-    border-radius: 50px;
+    border-radius: 40px;
     content: "";
     position: absolute;
     top: 0;
