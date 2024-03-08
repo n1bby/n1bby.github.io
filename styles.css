@@ -92,23 +92,19 @@ nav ul li {
 }
 .founders li{
     display: inline-block;
-    margin-right: 20px;
     vertical-align: middle;
-}
-.founders li img{
-    height: auto;
-    width: 200px;
-    border-radius: 50px;
 }
 .founders li {
     position: relative;
+    margin-right: 10px;
     display: inline-block; /* Display list items inline with block characteristics */
 }
-  
+
 .founders #people{
-    display: block; /* Removes bottom space under the image */
-    width: 200px; /* Adjust based on your design */
-    height: auto; /* Maintain aspect ratio */
+  display: inline-block; 
+  width: 200px; 
+  height: auto; 
+  border-radius: 50px; 
 }
 .founders a::after {
     border-radius: 50px;
