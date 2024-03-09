@@ -4,52 +4,53 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
 .landingpage{
     width: 100%;
     height: 100vh;
-    background-color: black;
-
+    background-image: url('media/photo-1707343844152-6d33a0bb32c3.avif');
+    background-size: cover;
 }
 .menubar{
-    height: 13vh;
+    height: 20%;
     width: 100%;
-    background-color: white;
+    
 }
 .menubar #Title {
     color: black;
-    font-size: 7ch;
+    font-size: 7vw;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
-    text-align: center;
-    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-nav ul {
+.icons ul{
     list-style-type: none;
     padding: 0;
     position: absolute;
     top: 4%;
     left: 5%;
 }
-nav ul li {
-    display: inline-block;
+.icons ul li{
+    display: inline;
     margin-right: 20px;
     vertical-align: middle;
+    font-size: 100%;
 }
-#logo {
+.icons #logo{
     height: auto;
-    width: 50px;
+    width: 5%;
     
 }
-#logo2 {
+.icons #logo2 {
     height: auto;
-    width: 65px;
+    width: 5%;
 }
 #designlogo {
     height: auto;
-    width: 100px;
+    width: 8%;
     position: absolute;
     right: 5%;
     top: 2%;
@@ -59,24 +60,21 @@ nav ul li {
     list-style-type: none;
     padding: 0;
     vertical-align: center;
+    font-size: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .menulist li{
     display: inline-block;
     margin-right: 25px;
-    transition: transform 0.3s ease;
     text-decoration: none;
 }
 .menulist li:hover {
     transform: translateY(-5px);
 }
-.picture1home{
-    height: auto;
-    width: 650px;
-    position: absolute;
-    right: 8%;
-    top: 30%;
-}
 .homeexplanation {
+    font-size: 1.2vw;
     position: absolute;
     top: 35%;
     left: 5%;
@@ -91,19 +89,14 @@ nav ul li {
     top: 30%;
 }
 .founders li{
-    display: inline-block;
     vertical-align: middle;
+    display: inline;
+    color: white;
 }
-.founders li {
-    position: relative;
-    margin-right: 10px;
-    display: inline-block; /* Display list items inline with block characteristics */
-}
-
 .founders #people{
-  display: inline-block; 
   width: 200px; 
   height: auto; 
+  margin-right: 10px;
   border-radius: 40px; 
 }
 .founders a::after {
@@ -114,10 +107,10 @@ nav ul li {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(128, 128, 128, 0.5); /* Grey transparent overlay */
-    opacity: 0; /* Hidden by default */
-    transition: opacity 0.5s ease-in-out; /* Smooth transition */
-    pointer-events: none; /* Allows clicking on the link beneath */
+    background-color: rgba(128, 128, 128, 0.5); 
+    opacity: 0; 
+    transition: opacity 0.5s ease-in-out; 
+    pointer-events: none; 
 }
 .founders a:hover::after {
     opacity: 1; /* Visible on hover */
