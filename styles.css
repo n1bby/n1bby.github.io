@@ -5,57 +5,61 @@
     padding: 0;
     box-sizing: border-box;
 }
-.landingpage{
+.welcomepage {
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+    grid-template-rows: 20% auto; 
     width: 100%;
     height: 100vh;
-    background-image: url('media/photo-1565519602223-589728535cf0.avif');
+    background-image: url('media/photo-1625014618427-fbc980b974f5.avif');
     background-size: cover;
 }
-.menubar{
-    height: 20%;
-    width: 100%;
-    background-color: rgb(255, 255, 255)
-}
-.menubar #Title {
+.top{
+    grid-column: 1 / -1; 
+    text-align: center; 
     color: black;
-    font-size: 7vw;
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
-.icons ul{
+.nested-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    height: 100%; 
+    width: 100%; 
+}
+  
+.nested-item {
+    text-align: center; 
+}
+.one ul{
     list-style-type: none;
     padding: 0;
-    position: absolute;
-    top: 4%;
-    left: 5%;
+    position: relative;
+    top: 15%;
 }
-.icons ul li{
+.one ul li{
     display: inline;
     margin-right: 20px;
     vertical-align: middle;
-    font-size: 100%;
 }
-.icons #logo{
-    height: auto;
-    width: 5%;
-    
+.one ul li a {
+    text-decoration: none;
 }
-.icons #logo2 {
+.one .logo{
     height: auto;
-    width: 5%;
+    width: 15%;
 }
-#designlogo {
+.one .logo2{
     height: auto;
-    width: 8%;
-    position: absolute;
-    right: 5%;
-    top: 2%;
+    width: 15%;
+}
+.two{
+    color: black;
+    font-size: 5vw;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .menulist{
+    margin-top: -1.5%;
     text-align: center;
     list-style-type: none;
     padding: 0;
@@ -73,17 +77,31 @@
 .menulist li:hover {
     transform: translateY(-5px);
 }
+.three img{
+    height: auto;
+    width: 25%;
+    position: relative;
+    top: 2%;
+}
+.bottom-left, .bottom-right {
+    font-family: "Bebas Neue", sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
 .homeexplanation {
     font-size: 1.2vw;
-    position: absolute;
-    top: 35%;
-    left: 5%;
+    position: relative;
+    left: -1%;
     color: white;
-    font-family: "Bebas Neue", sans-serif;
+    top: -10%;
 }
 .founders {
     list-style-type: none;
     padding: 0;
+    position: relative;
+    right: -4%;
+    top: -10%;
 }
 .founders li{
     vertical-align: middle;
@@ -91,7 +109,7 @@
     color: white;
 }
 .founders #people{
-  width: 17%; 
+  width: 28%;
   height: auto; 
   margin-right: 10px;
   border-radius: 2%; 
