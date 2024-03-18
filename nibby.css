@@ -7,8 +7,7 @@
 }
 .welcomepage {
     display: grid;
-    grid-template-columns: 1.5fr 2fr;
-    grid-template-rows: 20% auto; 
+    grid-template-rows: 20% 40% 40%; 
     width: 100%;
     height: 100vh;
     background-image: url('media/photo-1625014618427-fbc980b974f5.avif');
@@ -89,7 +88,8 @@
     display: flex;
 }
 .homeexplanation {
-    font-size: 1.2vw;
+    font-size: 3vw;
+    text-align: center;
     position: relative;
     left: -1%;
     color: white;
@@ -99,8 +99,8 @@
     list-style-type: none;
     padding: 0;
     position: relative;
-    right: -4%;
-    top: -10%;
+    text-align: center;
+    top: -20%
 }
 .founders li{
     vertical-align: middle;
@@ -110,6 +110,6 @@
 .founders #people{
   width: 28%;
   height: auto; 
-  margin-right: 10px;
+  margin-right: 5px;
   border-radius: 2%; 
 }
