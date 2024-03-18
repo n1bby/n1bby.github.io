@@ -7,8 +7,7 @@
 }
 .welcomepage {
     display: grid;
-    grid-template-columns: 1.5fr 2fr;
-    grid-template-rows: 20% auto; 
+    grid-template-rows: 20% 40% 40%; 
     width: 100%;
     height: 100vh;
     background-image: url('media/photo-1625014618427-fbc980b974f5.avif');
@@ -36,8 +35,7 @@
     top: 15%;
 }
 .one ul li{
-    display: inline;
-    margin-right: 20px;
+    display: inline-block;
     vertical-align: middle;
 }
 .one ul li a {
@@ -45,15 +43,15 @@
 }
 .one .logo{
     height: auto;
-    width: 15%;
+    width: 35%;
 }
 .one .logo2{
     height: auto;
-    width: 15%;
+    width: 35%;
 }
 .two{
     color: black;
-    font-size: 5vw;
+    font-size: 17vw;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -64,14 +62,14 @@
     list-style-type: none;
     padding: 0;
     vertical-align: center;
-    font-size: 1vw;
+    font-size: 3vw;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .menulist li{
     display: inline-block;
-    margin-right: 25px;
+    margin-right: 10px;
     text-decoration: none;
 }
 .menulist li:hover {
@@ -79,9 +77,9 @@
 }
 .three img{
     height: auto;
-    width: 25%;
+    width: 85%;
     position: relative;
-    top: 2%;
+    top: 12%;
 }
 .bottom-left, .bottom-right {
     font-family: "Bebas Neue", sans-serif;
@@ -90,7 +88,8 @@
     display: flex;
 }
 .homeexplanation {
-    font-size: 1.2vw;
+    font-size: 3vw;
+    text-align: center;
     position: relative;
     left: -1%;
     color: white;
@@ -100,8 +99,8 @@
     list-style-type: none;
     padding: 0;
     position: relative;
-    right: -4%;
-    top: -10%;
+    text-align: center;
+    top: -20%;
 }
 .founders li{
     vertical-align: middle;
@@ -111,117 +110,6 @@
 .founders #people{
   width: 28%;
   height: auto; 
-  margin-right: 10px;
+  margin-right: 5px;
   border-radius: 2%; 
-}
-
-@media screen and (max-width: 445px) {
-    .welcomepage {
-        display: grid;
-        grid-template-rows: 20% 40% 40%; 
-        width: 100%;
-        height: 100vh;
-        background-image: url('media/photo-1625014618427-fbc980b974f5.avif');
-        background-size: cover;
-    }
-    .top{
-        grid-column: 1 / -1; 
-        text-align: center; 
-        color: black;
-    }
-    .nested-grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr; 
-        height: 100%; 
-        width: 100%; 
-    }
-    
-    .nested-item {
-        text-align: center; 
-    }
-    .one ul{
-        list-style-type: none;
-        padding: 0;
-        position: relative;
-        top: 15%;
-    }
-    .one ul li{
-        display: inline-block;
-        vertical-align: middle;
-    }
-    .one ul li a {
-        text-decoration: none;
-    }
-    .one .logo{
-        height: auto;
-        width: 35%;
-    }
-    .one .logo2{
-        height: auto;
-        width: 35%;
-    }
-    .two{
-        color: black;
-        font-size: 17vw;
-        font-family: "Bebas Neue", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-    }
-    .menulist{
-        margin-top: -1.5%;
-        text-align: center;
-        list-style-type: none;
-        padding: 0;
-        vertical-align: center;
-        font-size: 3vw;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .menulist li{
-        display: inline-block;
-        margin-right: 10px;
-        text-decoration: none;
-    }
-    .menulist li:hover {
-        transform: translateY(-5px);
-    }
-    .three img{
-        height: auto;
-        width: 85%;
-        position: relative;
-        top: 12%;
-    }
-    .bottom-left, .bottom-right {
-        font-family: "Bebas Neue", sans-serif;
-        justify-content: center;
-        align-items: center;
-        display: flex;
-    }
-    .homeexplanation {
-        font-size: 3vw;
-        text-align: center;
-        position: relative;
-        left: -1%;
-        color: white;
-        top: -10%;
-    }
-    .founders {
-        list-style-type: none;
-        padding: 0;
-        position: relative;
-        text-align: center;
-        top: -20%;
-    }
-    .founders li{
-        vertical-align: middle;
-        display: inline;
-        color: white;
-    }
-    .founders #people{
-    width: 28%;
-    height: auto; 
-    margin-right: 5px;
-    border-radius: 2%; 
-    }
 }
